@@ -148,7 +148,7 @@ function kata17() {
 function kata18() {
     const kataNumber = 18;
     const kataInstructions = "Find and display the index of the last word in bestThing";
-    publishKata(kataNumber, kataInstructions, bestThing.indexOf(bestThing.split(" ").slice(-1)));
+    publishKata(kataNumber, kataInstructions, bestThing.lastIndexOf(bestThing.split(" ").slice(-1)));
 }
 
 function kata19() {
